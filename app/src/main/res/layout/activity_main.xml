@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/Course1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Course1"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/Course2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Course2"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/Course3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Course3"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/Course4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Course4"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/Course5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Course5"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/Total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Total" />
+
+
+
+        <Button
+            android:id="@+id/ComputeGPA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Compute GPA"
+            />
+
+        <TextView
+            android:id="@+id/GPA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="GPA" />
+
+
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>
